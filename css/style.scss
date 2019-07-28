@@ -1,0 +1,19 @@
+@import 'fonts';
+@import 'login';
+
+.skin-blue .wrapper, .skin-blue .main-sidebar, .skin-blue .left-side {
+    position: fixed!important;
+}
+.main-header {
+    position: fixed!important;
+    max-height: 100px;
+    z-index: 1030;
+}
+
+.skin-blue .main-header .navbar {
+    background-color: #3c8dbc;
+    position: fixed;
+    width: 100%;
+    z-index: 10;
+}
+

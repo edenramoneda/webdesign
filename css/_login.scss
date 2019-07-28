@@ -1,0 +1,40 @@
+#bodybackground{
+    background: -o-linear-gradient(bottom, #5b86e5, #36d1dc);
+    background: -moz-linear-gradient(bottom, #5b86e5, #36d1dc); 
+    background: linear-gradient(to bottom, #5b86e5, #36d1dc );
+    height:100vh;
+    display:flex;
+}
+.login-form
+{ 
+    margin:auto;
+    width:30%;
+    .login-card{
+    border:none;
+
+        .card-header
+        {
+            background-color: #7330b6;
+        }
+        .btn-login{
+            background-color: #7330b6;
+        }
+    }
+
+}
+
+@media screen and (max-width:955px){
+    .login-form{
+        width:50%;
+    }
+}
+@media screen and (max-width:650px){
+    .login-form{
+        width:50%;
+    }
+}
+@media screen and (max-width:550px){
+    .login-form{
+        width:60%;
+    }
+}
